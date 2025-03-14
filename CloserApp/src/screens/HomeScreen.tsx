@@ -1,19 +1,14 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { View, Text, Button, StyleSheet } from 'react-native';
-import { signOut } from 'firebase/auth';
-import { auth } from '../firebaseConfig';
+import { AuthContext } from '../context/AuthContext';
 
-// @ts-ignore
-const HomeScreen = ({ navigation }) => {
-  const handleLogout = async () => {
-    await signOut(auth);
-    navigation.navigate('Login');
-  };
+const HomeScreen = () => {
+  const { logout } = useContext(AuthContext);
 
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Welcome to Closer!</Text>
-      <Button title="Log Out" onPress={handleLogout} />
+      <Button title="Log Out" onPress={logout} />
     </View>
   );
 };
