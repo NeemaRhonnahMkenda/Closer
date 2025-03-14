@@ -1,0 +1,33 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Playwrite_HU/OFL.txt",
+      "sha1": "d32dec7b71d75de31f40714453ef322f44ae6a88"
+    },
+    {
+      "path": "assets/fonts/Playwrite_HU/PlaywriteHU-VariableFont_wght.ttf",
+      "sha1": "f7be08c7819af75e7201a5c6af05534d5f4013ed"
+    },
+    {
+      "path": "assets/fonts/Playwrite_HU/README.txt",
+      "sha1": "b8fadbd7b7c52142e8ef3f3e3d8342660cf0e6b3"
+    },
+    {
+      "path": "assets/fonts/Playwrite_HU/static/PlaywriteHU-ExtraLight.ttf",
+      "sha1": "65058e18d6f00b88a2b328935e1806679b94dd30"
+    },
+    {
+      "path": "assets/fonts/Playwrite_HU/static/PlaywriteHU-Light.ttf",
+      "sha1": "e9434e0bd1076683b1d3bd20ced0b5611f1bd522"
+    },
+    {
+      "path": "assets/fonts/Playwrite_HU/static/PlaywriteHU-Regular.ttf",
+      "sha1": "4debe52e0bd40be7df480f19eb2f0bc672a93427"
+    },
+    {
+      "path": "assets/fonts/Playwrite_HU/static/PlaywriteHU-Thin.ttf",
+      "sha1": "2bd1bbe2f4486f06942ba51e3ab20033bbf89aa4"
+    }
+  ]
+}
